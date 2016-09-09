@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Viewing a diff wil help me finding the difference in codes in same line and
+obviosly it helps me to plan, act, observe and reflect. It makes the bug 
+detections of two different versions of same program an easier task. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Accessing the eralier versions of file can help in rectifying the errors that 
+has occured due to updations. It helps me to go back to a previous version 
+easily and effectively. Another advantage of accessing the entire history is
+the code reuse which saves time and effort.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+The pros are:
+1. Avoids history being cluttered making commits for each small change I made.
+2. Gives the right to decide when to commit.
+3. It is more meaningfull in the sense it contain a message with each commit.
+
+The cons are:
+1. There is a possibility where we couldn't make the correct commit judgements
+and making the commits too large.
+2. There is a possibility for the commits lacking one clear and logical purpose. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is specially designed for coding purpose where as Google Docs were not 
+developed for coding keeping in mind. Sometimes we have multiple interdependent 
+files so if we want to make a change successfully we should reflect the change it 
+in all the dependent files and it is more easy to link this changes in a single 
+commit rather making commits for each file.   
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log commit_id will provide all the logs of commits from the most recent to 
+first one.
+git diff first_commit_id second_commit_id will show the differences between the two
+commits. The red color indicates deletion that means it only present in the first
+commit and The green color indicates insertion that means it only present in the 
+second commit.  
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Even though I made a mistake in my code I can go back to the previous versions. I
+could find where the actual problem is. And using version control I can confidently 
+try new things in my project.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want try some version controlling using Git.
