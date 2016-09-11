@@ -1,20 +1,45 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-A .git repository will be created. Intially it contains zero commits you have to create one first.
+A .git repository will be created. Intially it contains zero commits you
+have to create one first.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+Add operates on staging directory whereas status operates on both staging
+directory as well as working directory. It offers commits. 
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+git diff --staged will compare the staged area with commit in repositry.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+git branch will help in commiting an experimental change by keeping the original 
+file unchanged. The modified file will form a separate branch without affecting the 
+original file in the master branch. It helps in making a project organized by alowing
+different different branches for development, trying anew feature, experimenting etc.
+
 How do the diagrams help you visualize the branch structure?
+
+Diagrams helps to know about differeny branches. It also helps to identify any 
+unreacheable commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches results in a single branch that has all the commits both the branches.
+It helps to understand each commits and its parents better.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+pros
+1.It can find conflicts automatically.
+2.Merging occurs fast and efficently.
+
+cons
+1.All decisions regarding merging are made by Git itself automatically
+without user intervention.
