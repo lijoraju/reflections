@@ -7,4 +7,10 @@ Why might you want to always pull changes manually rather than having Git automa
 stay up-to-date with your remote repository?
 
 Sometimes the changes are made not by me but some other people if I don't want to reflect
-that changes automatically then there should be a manual mechanism to do that. 
+that changes automatically then there should be a manual mechanism to do that.
+
+Describe the differences between forks, clones, and branches. When would you use one
+instead of another?
+
+Fork is used inside GitHub it is used to clone inside GitHub. Clone is used inside our local
+machine. Branch is used to show commits and its parents.  
